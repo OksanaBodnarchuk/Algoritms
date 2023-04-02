@@ -4,7 +4,6 @@ class Person {
         this.mother = null;
         this.father = null;
     }
-
 }
 let p1 = new Person('Oksana');
 let p11 = new Person('Lidiya');
@@ -34,7 +33,6 @@ class Tree {
                     if (root.mother !== null) root.father = this.depthTraversing(root.father)
                     this.drow += ' )'
                 }
-
             }
             return this.drow
         }
@@ -45,7 +43,6 @@ class Tree {
         }
     }
 }
-
 
 const tree = new Tree()
 
